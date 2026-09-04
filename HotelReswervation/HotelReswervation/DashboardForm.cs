@@ -9,11 +9,14 @@ namespace HotelReswervation
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void DashboardForm_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            loginPageForm = new LoginPageForm();
-            loginPageForm.ShowDialog();
+
+        }
+
+        private void lblBaseRate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

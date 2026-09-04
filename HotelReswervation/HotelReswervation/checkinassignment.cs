@@ -10,20 +10,21 @@ using System.Windows.Forms;
 
 namespace HotelReswervation
 {
-    public partial class LoginPageForm : Form
+    public partial class checkinassignment : Form
     {
-        public LoginPageForm()
+        public checkinassignment()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void LoginPageForm_Load(object sender, EventArgs e)
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
+
         }
     }
 }

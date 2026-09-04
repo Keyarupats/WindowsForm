@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace HotelReswervation
 {
-    public partial class LoginPageForm : Form
+    public partial class BillingComputationForm : Form
     {
-        public LoginPageForm()
+        public BillingComputationForm()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LoginPageForm_Load(object sender, EventArgs e)
-        {
         }
     }
 }

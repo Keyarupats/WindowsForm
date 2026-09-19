@@ -36,8 +36,6 @@
             txtPassword = new TextBox();
             panel2 = new Panel();
             txtUsername = new TextBox();
-            label5 = new Label();
-            label4 = new Label();
             btnLogin = new Button();
             label2 = new Label();
             label1 = new Label();
@@ -59,8 +57,6 @@
             panel1.Controls.Add(cmbRole);
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel2);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label4);
             panel1.Controls.Add(btnLogin);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
@@ -75,7 +71,7 @@
             lblErrorMessage.AutoSize = true;
             lblErrorMessage.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblErrorMessage.ForeColor = SystemColors.ActiveCaptionText;
-            lblErrorMessage.Location = new Point(27, 78);
+            lblErrorMessage.Location = new Point(27, 83);
             lblErrorMessage.Name = "lblErrorMessage";
             lblErrorMessage.Size = new Size(191, 19);
             lblErrorMessage.TabIndex = 14;
@@ -88,7 +84,7 @@
             btnClear.FlatAppearance.BorderSize = 2;
             btnClear.FlatStyle = FlatStyle.Flat;
             btnClear.ForeColor = Color.FromArgb(128, 128, 255);
-            btnClear.Location = new Point(28, 243);
+            btnClear.Location = new Point(28, 281);
             btnClear.Margin = new Padding(3, 2, 3, 2);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(110, 32);
@@ -100,7 +96,7 @@
             // 
             cmbRole.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbRole.FormattingEnabled = true;
-            cmbRole.Location = new Point(28, 204);
+            cmbRole.Location = new Point(28, 232);
             cmbRole.Name = "cmbRole";
             cmbRole.Size = new Size(266, 23);
             cmbRole.TabIndex = 12;
@@ -109,7 +105,7 @@
             // 
             panel3.BackColor = SystemColors.ControlLight;
             panel3.Controls.Add(txtPassword);
-            panel3.Location = new Point(23, 149);
+            panel3.Location = new Point(23, 172);
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
             panel3.Size = new Size(271, 34);
@@ -134,7 +130,7 @@
             // 
             panel2.BackColor = SystemColors.ControlLight;
             panel2.Controls.Add(txtUsername);
-            panel2.Location = new Point(22, 98);
+            panel2.Location = new Point(22, 114);
             panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
             panel2.Size = new Size(271, 34);
@@ -155,33 +151,11 @@
             txtUsername.Enter += txtUsername_Enter;
             txtUsername.Leave += txtUsername_Leave;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.White;
-            label5.Font = new Font("Segoe UI", 7.8F, FontStyle.Underline, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.FromArgb(128, 128, 255);
-            label5.Location = new Point(190, 301);
-            label5.Name = "label5";
-            label5.Size = new Size(49, 13);
-            label5.TabIndex = 9;
-            label5.Text = "Register";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(65, 301);
-            label4.Name = "label4";
-            label4.Size = new Size(128, 13);
-            label4.TabIndex = 8;
-            label4.Text = "Don't have an account?";
-            // 
             // btnLogin
             // 
             btnLogin.BackColor = Color.FromArgb(128, 128, 255);
             btnLogin.ForeColor = SystemColors.ButtonHighlight;
-            btnLogin.Location = new Point(163, 243);
+            btnLogin.Location = new Point(163, 281);
             btnLogin.Margin = new Padding(3, 2, 3, 2);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(110, 32);
@@ -193,7 +167,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(15, 40);
+            label2.Location = new Point(15, 45);
             label2.Name = "label2";
             label2.Size = new Size(108, 30);
             label2.TabIndex = 1;
@@ -204,7 +178,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.AppWorkspace;
-            label1.Location = new Point(15, 18);
+            label1.Location = new Point(15, 26);
             label1.Name = "label1";
             label1.Size = new Size(158, 19);
             label1.TabIndex = 0;
@@ -285,8 +259,6 @@
         private Label label1;
         private TextBox txtUsername;
         private Button btnLogin;
-        private Label label5;
-        private Label label4;
         private Panel panel2;
         private Panel panel3;
         private TextBox txtPassword;

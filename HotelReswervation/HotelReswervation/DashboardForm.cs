@@ -2,7 +2,7 @@ namespace HotelReswervation
 {
     public partial class DashboardForm : Form
     {
-        LoginPageForm loginPageForm;
+        LoginForm loginPageForm;
 
         public DashboardForm()
         {

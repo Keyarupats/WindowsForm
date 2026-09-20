@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HotelReswervation
 {
-    public partial class CashierForm : Form
+    public partial class RoomManagement : Form
     {
-        public CashierForm()
+        public RoomManagement()
         {
             InitializeComponent();
         }
